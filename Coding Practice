@@ -1,0 +1,22 @@
+##Hello World
+print("Hello World")
+print("Hello Jon!")
+
+##Converting Celcius into Farenheit
+celcius = float(input("Enter the temperature!"))
+farenheit = (celcius * 9/5) + 32
+print(farenheit)
+
+##Working out a players averge batts
+runs = 48426
+batts = 1014
+nOut = 162
+innings = batts - nOut
+AverageBatt = runs / innings
+print(AverageBatt)
+
+##Number of groups needed for no. students
+labGroup = 24
+students = 113 + 75 + 12
+groupsNeeded = students / labGroup
+print(groupsNeeded)
